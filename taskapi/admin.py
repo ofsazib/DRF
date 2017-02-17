@@ -1,3 +1,4 @@
 from django.contrib import admin
-
-# Register your models here.
+from .models import Contact
+''' Register Contact model class '''
+admin.site.register(Contact)
