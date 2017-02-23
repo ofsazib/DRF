@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+""" executing from command_line to initilize setting in local environment """
 import os
 import sys
 
