@@ -32,3 +32,8 @@ python manage.py runserver
 ```
 127.0.0.1:8000(port can be different depending on your server port)
 ```
+# Check the Endpoints
+1) http://127.0.0.1:8000/api/v1/contact/ - A user will be able to get a list of all the contacts and will be able to
+create a new contact using this endpoint.
+2) http://127.0.0.1:8000/api/v1/contact/<id>/ - A user will be able to update and delete a contact using this
+endpoint.
